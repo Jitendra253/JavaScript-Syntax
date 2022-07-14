@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Global And local Variablbe</title>
+</head>
+
+<body>
+    <script>
+        var x = 50; //global variable declatation
+        function a() {
+            document.write("Global Variaable = ");
+            document.writeln(x);
+        }
+
+        function b() {
+            var x = 100; //Local variable declaration
+            document.write("<br>");
+            document.write("Local Variable = ")
+            document.writeln(x);
+        }
+
+        a(); //calling javascript function
+        b();
+    </script>
+</body>
+
+</html>
